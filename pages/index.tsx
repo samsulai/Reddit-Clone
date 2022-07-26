@@ -3,9 +3,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/header'
 import PostBox from '../components/PostBox'
+import Feed from '../components/Feed'
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className="my-7 max-w-5xl mx-auto">
       <Head>
         <title>Reddit Clone</title>
         
@@ -13,8 +14,9 @@ const Home: NextPage = () => {
 
       {/*PostBox*/}
 <PostBox />
-      <div>
-       {/*Feed*/}
+      <div className="flex">
+     
+       <Feed />
       </div>
 
       
