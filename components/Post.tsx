@@ -73,7 +73,7 @@ useEffect(() => {
     )
 	return (
 		<Link href={`/post/${post.id}`}>
-<div className="mt-2 rounded-md flex cursor-pointer border border-gray-300 bg-white shadow-sm hover:border hover:border-gray-600 ">
+<div className="mt-2 rounded-md flex cursor-pointer border border-gray-300 bg-white shadow-sm hover:border hover:border-gray-600 px-10 ">
     
 
 <div className="flex flex-col items-center justify-start space-y-1 rounded-l-md bg-gray-50 px-1 py-4 text-gray-400 sm:p-4">
